@@ -1,0 +1,19 @@
+{
+  "name": "brut",
+  "version": "1.0.0",
+  "description": "In this repo I will be logging my progression for the assessment I need to make. \r This will also work as a platform to show the results of the exercises.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khualu/brut_assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khualu/brut_assessment/issues"
+  },
+  "homepage": "https://github.com/khualu/brut_assessment#readme"
+}
