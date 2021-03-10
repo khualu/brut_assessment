@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <a href="/">HOME</a>
+    <main>
+        <%  
+            const caseContent = selectedCase.acf.cases_content
+            const headerImage = selectedCase.acf.cases_content[0].case_banner_image.sizes["2048x2048"]
+        %>
+
+        <h1><%= selectedCase.title.rendered %></h1>
+        <img src="<%= headerImage  %>" alt="">
+
+        <!-- Looping through case content and if available rendering it -->
+        <% for (x=0; x < caseContent.length; x++) { %>
+            <%- caseContent[x].case_left_column %>
+            <%- caseContent[x].case_one_column %>
+            <%- caseContent[x].case_right_column %>
+        <% } %>
+    </main>
+
+</body>
+
+</html>

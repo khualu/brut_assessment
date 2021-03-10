@@ -1,0 +1,12 @@
+<h1>CASES VAN BRÛT</h1>
+
+<article>
+
+    <% for (x=0; x < cases.length; x++) { %>
+    <h2><%= cases[x].title.rendered %></h2>
+    <img src="<%= cases[x].acf.cases_content[0].case_banner_image.sizes.thumbnail  %>" alt="">
+    <a href="/case<%= [x] %>">LEES MEER</a>
+    <% } %>
+</article>
+
+
