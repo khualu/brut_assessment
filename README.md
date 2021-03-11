@@ -153,7 +153,7 @@ main {
 }
 ```
 
-## Open vraag
+## 3. Open vraag
 > “Ik ben een makelaar en ben opzoek naar een nieuwe website. Mijn woningen staat allemaal op het CMS/CRM van realworks maar ik vind de standaard websites die dit platform aanbiedt te generiek. Ik wil niet via twee platformen mijn site onderhouden, ik hoorde dat WordPress sites tegenwoordig de norm zijn. Kunnen jullie mij hierin iets adviseren / aanbieden?”
 
 _Wat voor advies zou ik geven aan een klant met dit verhaal._
@@ -172,3 +172,19 @@ Mijn advies aan de klant is dat wij een nieuwe website voor hem gaan maken, waar
 In dit geval biedt Wordpress niets wat meerwaarde heeft over het CMS van Realworks. Daarnaast heeft de klant alle data al in het Realworks CMS staan. Het zou zonde zijn van geld en tijd voor het project als al deze informatie overgezet moest worden naar een Wordpress site. 
 
 In deze nieuwe site kunnen we alle informatie uit het Realworks CMS trekken en laten zien. Met daarnaast ook de mogelijkheid om van uit de nieuwe site data naar het Realworks CRM te sturen door middel van forms en andere functionaliteiten. Zo heeft de klant aan de voorkant de nieuwe site die wij voor hem gemaakt hebben, met alle benodigde functionaliteiten. Hierdoor heeft hij niet een generieke Realworks site, en behoudt hij wel het gemakt dat alle onderhoud gedaan kan worden in de admin van Realworks. Dus geen onderhoud/beheer van twee verschillende sites. Één systeem voor de backend en data, en één pagina die de klanten zien. 
+
+
+## 4. Opvallende en/of creatieve websites
+
+### Random Studio
+De eerste is de website van [Random Studio](https://random.studio/). De zero state van de site ziet er in eerste instantei niet zo interessant uit. Tot dat je erachter komt dat je slider onderaan het scherm kunt bewegen. Het neemt je langs een route van Amsterdam tot Parijs, waarbij ze allerlei plekken laten zien waarvoor ze projecten hebben gedaan. Ze leggen niet helemaal uit waar de foto's precies voor staan, maar dat vond ik juist intrigrerend. Je wil meer weten, misschien is dit een abstracte call-to-action. 
+
+De rest van de site is een goed voorbeeld van less is more. Alle 'losse' afbeeldingen die je ziet als gebruikers, zijn links naar de case detailpagina. Er staan quotes door de pagina verspreid uit onderzoeken die zij gedaan hebben of informatie over het bedrijf. Wat mij aantrekt hiervan is dat zij laten zien dat ze niet bang zijn om conventies te breken. Visuele hiërarchie en conventies over de plaatsing van content worden volledig het raam uit gegooid. 
+
+#### In hoeverre kan ik dit maken?
+De site an sich is niet moeilijk om te maken. Het is juist de plaatsing wat het interessant maakt. Al is er wel wat te zeggen voor dat het bedenken van dit soort layouts niet voor iedereen is weg gelegd. Maar, wat er uitdagend uit ziet is het scherm boven in wat je langs de route meenement van Amsterdam tot Parijs. Ik heb geen ervaring met animatie frameworks in Javascript, dus het is lastig voor mij om te bepalen hoe moeilijk dit is. Ik ga er vanuit dat ik niet zo maar kan maken, maar het lijkt me leerzaam om kennis op te doen van dit soort frameworks en hoe zulke animaties in de frontend gedaan kunnen worden (aangezien ze daadwerkelijk wat toevoegen aan het verhaal van de studio).
+
+### Kaomoji
+Zoals ik zei tijdens ons videogesprek, ik ben onwijs geïnspireerd door japanse esthetiek en cultuur. Japan heeft een bepaalde kledingstijl genaamd naar de bekende wijk 'Harajuku'. Deze stijl was vroeger behoorlijk over-de-top. Maar door de jaren heen zijn hier verschillende stromingen in ontstaan. Onder andere de streetwear stijl. [Kaomoji](https://www.kaomoji.co/) is een Nederlands merk dat dit soort kleding verkoopt. Ik vind vrijwel alle kleding die zij maken mooi. Ze doen ook vaak samenwerking (collabs) met bekende anime figuren. De laatste collab is met virtual Youtuber Kizuna Al. 
+
+De site is een webshop waar je de kleding van [Kaomoji](https://www.kaomoji.co/) kan kopen. De site is erg clean, wat ik kan waarderen. De site heeft niet complexe zaken zoals bij Studio Random, maar er zitten allerlei kleine animaties en eye-candy die het prettig maken om als gebruiker er door heen te scrollen. Met genoeg tijd kan ik de frontend van de site maken. De backend en het kunnen aankopen van kleding is waarschijnlijk lastiger.  
