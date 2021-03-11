@@ -1,0 +1,55 @@
+$screen-sm-min: 600px;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+$screen-med-min: 768px;
+/* Medium devices (landscape tablets, 768px and up) */
+$screen-lg-min: 992px;
+/* Large devices (laptops/desktops, 992px and up) */
+$screen-xl-min: 1200px;
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Roboto&display=swap');
+
+
+main {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    article {
+        border: 2px solid rgb(105, 105, 105);
+        text-align: center;
+        min-width: 90%;
+        min-height: 200px;
+        margin: 10px;
+
+        h2 {
+            font-family: 'Playfair Display';
+            font-weight: 700;
+        }
+
+        p {
+            font-family: 'Roboto';
+            margin: 20px;
+        }
+    }
+}
+
+@media (min-width: #{$screen-sm-min}) {
+    main {
+        article {
+            min-width: 35%;
+            max-width: 45%;
+            min-height: 300px;
+        }
+    }
+}
+
+@media (min-width: $screen-xl-min) {
+    main {
+        article {
+            min-width: 20%;
+            max-width: 30%;
+            min-height: 300px;
+        }
+    }
+}
